@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawsy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #FF6E29;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            border-radius: 0 0 50px 50px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #FF6E29;
+            padding: 10px;
+            border-radius: 0 0 50px 50px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border-radius: 20px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: white;
+            color: #FF6E29;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .product-item {
+            flex: 1 1 calc(33.333% - 20px);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .product-item img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .product-item h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .product-item p {
+            color: #FF6E29;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #FF6E29;
+            color: white;
+            border-radius: 50px 50px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Pawsy</h1>
+        <p>Your one-stop shop for furry costumes and accessories!</p>
+    </header>
+    <nav>
+        <a href="#ears">Ears</a>
+        <a href="#tails">Tails</a>
+        <a href="#paws">Paws</a>
+        <a href="#accessories">Accessories</a>
+        <a href="#clothing">Clothing</a>
+        <a href="#home">Home</a>
+    </nav>
+    <section id="ears">
+        <h2>Ears</h2>
+        <p>Discover our wide range of ears in various styles and colors to match your fursona perfectly.</p>
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-item">
+                <img src="path/to/ear1.jpg" alt="Ear 1">
+                <h3>Product Name 1</h3>
+                <p>$19.99</p>
+            </div>
+            <!-- Product 2 -->
+            <div class="product-item">
+                <img src="path/to/ear2.jpg" alt="Ear 2">
+                <h3>Product Name 2</h3>
+                <p>$24.99</p>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+    <section id="tails">
+        <h2>Tails</h2>
+        <p>Explore our collection of tails, from long and fluffy to short and sleek, we have it all.</p>
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-item">
+                <img src="path/to/tail1.jpg" alt="Tail 1">
+                <h3>Product Name 1</h3>
+                <p>$29.99</p>
+            </div>
+            <!-- Product 2 -->
+            <div class="product-item">
+                <img src="path/to/tail2.jpg" alt="Tail 2">
+                <h3>Product Name 2</h3>
+                <p>$34.99</p>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+    <section id="paws">
+        <h2>Paws</h2>
+        <p>Our paws are designed for comfort and style, ensuring you look and feel great at any event.</p>
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-item">
+                <img src="path/to/paw1.jpg" alt="Paw 1">
+                <h3>Product Name 1</h3>
+                <p>$15.99</p>
+            </div>
+            <!-- Product 2 -->
+            <div class="product-item">
+                <img src="path/to/paw2.jpg" alt="Paw 2">
+                <h3>Product Name 2</h3>
+                <p>$18.99</p>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+    <section id="accessories">
+        <h2>Accessories</h2>
+        <p>Complete your look with our unique accessories, from collars to badges, we've got the perfect finishing touches.</p>
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-item">
+                <img src="path/to/accessory1.jpg" alt="Accessory 1">
+                <h3>Product Name 1</h3>
+                <p>$9.99</p>
+            </div>
+            <!-- Product 2 -->
+            <div class="product-item">
+                <img src="path/to/accessory2.jpg" alt="Accessory 2">
+                <h3>Product Name 2</h3>
+                <p>$12.99</p>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+    <section id="clothing">
+        <h2>Clothing</h2>
+        <p>Find the perfect outfit for any occasion with our wide range of furry-themed clothing options.</p>
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-item">
+                <img src="path/to/clothing1.jpg" alt="Clothing 1">
+                <h3>Product Name 1</h3>
+                <p>$39.99</p>
+            </div>
+            <!-- Product 2 -->
+            <div class="product-item">
+                <img src="path/to/clothing2.jpg" alt="Clothing 2">
+                <h3>Product Name 2</h3>
+                <p>$44.99</p>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to Pawsy! We specialize in costumes and accessories for furries. Browse our categories to find the perfect items for your fursona.</p>
+        <!-- Add content as needed -->
+    </section>
+    <footer>
+        <p>Contact us at: info@pawsy.com | Follow us on social media</p>
+    </footer>
+</body>
+</html>
